@@ -1,6 +1,7 @@
 {
   "name": "deteksi-botol",
   "version": "0.1.0",
+  "homepage": "https://github.com/RyanGiggs77/project_orbit",
   "private": true,
   "proxy":"http://127.0.0.1:5000/",
   "dependencies": {
@@ -23,6 +24,8 @@
     "server": "node server.js",
     "react": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
