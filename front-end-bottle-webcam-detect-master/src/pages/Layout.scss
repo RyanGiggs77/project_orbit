@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cameraElement{
+  max-width: 90%;
+}
+.btn-container{
+  button{
+      background-color: #007ea7;
+      width: 200px;
+      padding: 10px;
+      color: white;
+      border-style: none;
+      border-radius: 15px;
+      font-size: 18pt;
+      margin: 15px;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .cameraElement{
+      width: 1080;
+      height: 1920;
+  }
+  .container{
+      margin-top: 50px;
+  }
+  .btn-container{
+      margin-bottom: 50px;
+  }
+}

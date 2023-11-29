@@ -1,0 +1,56 @@
+.Hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    div{
+        background-color: white;
+        border-radius: 0 0 162px 162px;
+        display: flex;
+        flex-direction: column;
+        .banner{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 0 5% 5% 5%;
+            h1{
+                font-size: 170pt;
+                margin: 0;
+                letter-spacing: -10px;
+            }
+            p{
+                font-size: 15pt;
+                margin: 0;
+            }
+        }
+        img{
+            margin: auto;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Hero{
+        flex-direction: column;
+        width: 100%;
+        div{
+            .banner{
+                flex-direction: column;
+                h1{
+                    font-size: 70pt;
+                    letter-spacing: normal;
+                }
+                p{
+                    font-size: 10pt;
+                    text-align: center;
+                }
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+  }

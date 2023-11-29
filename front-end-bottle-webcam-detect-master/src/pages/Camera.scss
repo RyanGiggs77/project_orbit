@@ -1,0 +1,69 @@
+.relative {
+    position: relative;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .w-full {
+    width: 50%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  /* Include your existing styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .cameraElement {
+    max-width: 90%;
+  }
+  
+  .btn-container {
+    button {
+      background-color: #007ea7;
+      width: 200px;
+      padding: 10px;
+      color: white;
+      border-style: none;
+      border-radius: 15px;
+      font-size: 18pt;
+      margin: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .cameraElement {
+      width: 100%;
+      height: auto;
+    }
+  
+    .container {
+      margin-top: 50px;
+    }
+  
+    .btn-container {
+      margin-bottom: 50px;
+    }
+  }
+  
