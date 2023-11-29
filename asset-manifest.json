@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/RyanGiggs77/project_orbit/static/css/main.cf8a6b61.css",
+    "main.js": "/RyanGiggs77/project_orbit/static/js/main.2307fc1d.js",
+    "static/media/aqua.webp": "/RyanGiggs77/project_orbit/static/media/aqua.80cc6e7632baaa6b49f0.webp",
+    "static/media/aqua2.webp": "/RyanGiggs77/project_orbit/static/media/aqua2.016d3a4156b48470cdd9.webp",
+    "static/media/tutup.webp": "/RyanGiggs77/project_orbit/static/media/tutup.2a20589a894761fe54d3.webp",
+    "static/media/twitter.png": "/RyanGiggs77/project_orbit/static/media/twitter.ed0b1f9aa9e79b668ed2.png",
+    "static/media/decor.png": "/RyanGiggs77/project_orbit/static/media/decor.d239b147ffe7be3ee920.png",
+    "static/media/instagram.png": "/RyanGiggs77/project_orbit/static/media/instagram.1d156a89b464dda934dd.png",
+    "index.html": "/RyanGiggs77/project_orbit/index.html",
+    "main.cf8a6b61.css.map": "/RyanGiggs77/project_orbit/static/css/main.cf8a6b61.css.map",
+    "main.2307fc1d.js.map": "/RyanGiggs77/project_orbit/static/js/main.2307fc1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf8a6b61.css",
+    "static/js/main.2307fc1d.js"
+  ]
+}
